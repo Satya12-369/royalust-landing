@@ -1,0 +1,35 @@
+Create a single HTML file (HTML, CSS, JavaScript only) for a luxury brand landing page that looks like it was designed by a high-end agency in 2025. The brand is ROYALUST. 
+
+Use EXACTLY the text given at /Users/satya/Documents/Royalust/AI Stuff/Pitch 2/Slides/slide1.txt 
+
+Find creative ways to make that text not cause clutter. Dont leave anything out! 
+
+Pretend you are the best web designer in the world 
+
+
+Include:
+
+Rich black background with deep dimension
+Real metallic gold gradients and purple accents
+Floating particle effects that look like gold dust
+Subtle hover animations on all elements
+Glass-morphism effects
+Ultra-modern typography
+Premium micro-interactions
+Smooth reveal animations
+
+Make it look EXPENSIVE. Think Cartier meets Apple meets Web 3.0. Everything should feel weighted and precious, like real gold and luxury materials. No frameworks or external dependencies - just pure HTML/CSS/JS in one file."
+The key phrases that will trigger that expensive look are:
+
+"metallic gold" (instead of just "gold")
+"glass-morphism"
+"micro-interactions"
+"weighted and precious"
+"deep dimension"
+
+This tells the AI to use:
+
+More sophisticated gradients
+Better shadow effects
+More polished animations
+Higher-end design patterns

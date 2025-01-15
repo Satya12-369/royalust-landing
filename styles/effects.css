@@ -1,0 +1,50 @@
+.glass {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.glass:hover {
+  background: rgba(255, 255, 255, 0.08);
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.metallic-border {
+  position: relative;
+  border: 1px solid transparent;
+  background: linear-gradient(var(--color-black), var(--color-black)) padding-box,
+              linear-gradient(135deg, #FFD700, #B8860B) border-box;
+  border-radius: 15px;
+}
+
+.deep-shadow {
+  box-shadow: 
+    0 10px 30px -10px rgba(255, 215, 0, 0.3),
+    0 20px 60px -30px rgba(0, 0, 0, 0.5);
+}
+
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at center, 
+    rgba(128, 0, 128, 0.2) 0%,
+    rgba(10, 10, 10, 0.8) 100%);
+  pointer-events: none;
+}
