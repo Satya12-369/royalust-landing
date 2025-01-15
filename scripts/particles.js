@@ -26,8 +26,8 @@ class GoldParticle {
       this.x, this.y, 0,
       this.x, this.y, this.size
     );
-    gradient.addColorStop(0, `rgba(255, 215, 0, ${this.opacity})`);
-    gradient.addColorStop(1, 'rgba(184, 134, 11, 0)');
+    gradient.addColorStop(0, `rgba(255, 255, 255, ${this.opacity * 0.1})`);
+    gradient.addColorStop(1, 'rgba(255, 255, 255, 0)');
     this.ctx.fillStyle = gradient;
     this.ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
     this.ctx.fill();
@@ -50,7 +50,7 @@ class ParticleSystem {
 
   init() {
     this.particles = [];
-    const particleCount = Math.min(window.innerWidth * 0.1, 100);
+    const particleCount = Math.min(window.innerWidth * 0.05, 50);
     for (let i = 0; i < particleCount; i++) {
       this.particles.push(new GoldParticle(this.canvas));
     }
